@@ -1,0 +1,41 @@
+{
+  "customers": [
+    {
+      "id": "30000001",
+      "dni": "20896095",
+      "name": "VALERIA ROMEROOOOO",
+      "age": 26,
+      "isDeleteAllow": false,
+      "user": {
+        "permissions": [
+          "CUSTOMER_LIST",
+          "CUSTOMER_VIEW",
+          "CUSTOMER_EDIT"
+        ]
+      }
+    },
+    {
+      "id": "30000000",
+      "dni": "30000000",
+      "name": "Omar Lopez",
+      "age": 43
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
